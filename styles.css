@@ -1,0 +1,173 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 0px 20vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    flex-basis: 400px;
+    background-color: #1F2937;
+    padding: 0px 150px 0px 150px;
+    flex: 1;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-top ul {
+    display: flex; 
+    gap: 24px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link,
+.secondary-text,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    gap: 25px;
+}
+
+.hero-text-box {
+    align-self: flex-start;
+    flex-shrink: 2;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8; 
+    margin: 0px;
+}
+
+.secondary-text {
+    margin: 6px 0px;
+}
+
+.header-img {
+    flex-basis: 500px;
+    height: 175px;
+    background-color: gray;
+    min-width: 200px;
+    flex-shrink: 1;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 90px;
+    height: 25px;
+}   
+
+ul {
+    list-style-type: none;
+}
+
+.info {
+    background-color: white;
+    text-align: center;
+    height: 350px;
+    flex: 1;
+    padding: 50px;
+}
+
+.info h2 {
+    margin-top: 0px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937
+}
+
+.info-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info-image {
+    flex-basis: 50px;
+}
+
+.img-box {
+    height: 80px;
+    border: 2px solid rgb(26, 70, 190);
+}
+
+.testimonial {
+    flex: 1;
+    background-color: #E5E7EB;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    width: 500px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    align-self: flex-end;
+    margin: 0px;
+    margin-right: 150px;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sign-up-section {
+    height: 100px;
+    padding: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-info {
+    background-color: #3882F6;
+    width: 800px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up-text {
+
+}
+
+.sign-up-text > * {
+    margin: 0px;
+}
